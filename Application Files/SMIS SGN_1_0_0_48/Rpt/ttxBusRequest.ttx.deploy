@@ -1,0 +1,9 @@
+
+FlightDate	string	20
+FlightNo	string	10
+ACRegNo	string	10
+Route	string	20
+ParkingBay	string	10
+UserName	string	20
+TotalPax	Number
+SSR	string	250
