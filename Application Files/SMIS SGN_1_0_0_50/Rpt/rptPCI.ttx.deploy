@@ -1,0 +1,11 @@
+Carrier	String	2	
+Month	Number		
+Year	Number		
+Date	Datetime		
+Mode	String	1	
+PCI	Number		
+ITCI	Number		
+IETK	Number		
+CETK	Number		
+Initiated	Number		
+LegsFlown	Number		

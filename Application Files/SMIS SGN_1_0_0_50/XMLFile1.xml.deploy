@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RadGridView BeginEditMode="BeginEditOnKeystroke" EnableHotTracking="False" ShowNoDataText="False" GroupExpandAnimationType="Slide" ShowHeaderCellButtons="True" EnableCustomGrouping="True" EnterKeyMode="EnterMovesToNextCell" BackColor="239, 239, 239" ForeColor="Black" Font="Segoe UI, 12.75pt" Cursor="Default" RightToLeft="No" TabIndex="0" ImeMode="NoControl">
+  <MasterTemplate MultiSelect="True" AllowColumnHeaderContextMenu="False" AllowCellContextMenu="False" AllowDeleteRow="False" AllowAddNewRow="False" EnableSorting="False" EnableCustomGrouping="True" AutoGenerateColumns="False" AutoExpandGroups="True" ShowHeaderCellButtons="True">
+    <Columns>
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="41" FieldName="FlightId" Name="FlightId" EnableExpressionEditor="False" IsVisible="False" IsPinned="True" PinPosition="Left" ReadOnly="True" HeaderText="FLT ID" />
+      <Telerik.WinControls.UI.GridViewImageColumn Width="18" Name="ImageLock" EnableExpressionEditor="False" IsVisible="False" IsPinned="True" PinPosition="Left" AllowSort="False" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="48" Name="No" EnableExpressionEditor="False" IsVisible="True" IsPinned="True" PinPosition="Left" HeaderText="NO" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="88" FieldName="FlightNo" Name="FlightNo" EnableExpressionEditor="False" IsVisible="True" IsPinned="True" PinPosition="Left" HeaderText="FLIGHT&#xA;NUMBER" />
+      <Telerik.WinControls.UI.GridViewDateTimeColumn Format="Custom" FormatString="{0:dd}" Width="53" FieldName="FlightDate" Name="FlightDate" EnableExpressionEditor="False" IsVisible="False" ReadOnly="True" HeaderText="DATE" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewComboBoxColumn Width="88" FieldName="ACType" Name="ACType" EnableExpressionEditor="False" IsVisible="True" HeaderText="AIRCRAFT" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="88" FieldName="ACRegNo" Name="ACRegNo" EnableExpressionEditor="False" IsVisible="True" HeaderText="REG." />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="88" FieldName="Config" Name="Config" EnableExpressionEditor="False" IsVisible="True" AllowGroup="False" HeaderText="CONFIG" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="88" FieldName="Booking" Name="Booking" EnableExpressionEditor="False" IsVisible="True" AllowGroup="False" HeaderText="BOOKING" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="118" FieldName="Route" Name="Route" EnableExpressionEditor="False" IsVisible="True" HeaderText="ROUTE" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="ScheduledTime" Name="ScheduledTime" EnableExpressionEditor="False" IsVisible="True" AllowGroup="False" HeaderText="STD" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewCheckBoxColumn Width="78" MinWidth="20" FieldName="FlightCheck" Name="FlightCheck" EnableExpressionEditor="False" IsVisible="True" HeaderText="F/CHK" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="DepTime" Name="DepTime" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="DEP" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="ArrTime" Name="ArrTime" EnableExpressionEditor="False" IsVisible="True" AllowGroup="False" HeaderText="ARR" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="EstimatedTime" Name="EstimatedTime" EnableExpressionEditor="False" IsVisible="True" AllowGroup="False" HeaderText="ETD" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="InOutBoundTime" Name="InOutBoundTime" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="IBT" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="PushBackTime" Name="PushBackTime" EnableExpressionEditor="False" IsVisible="True" HeaderText="PBT" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="ACDoorClose" Name="ACDoorClose" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="AC DR&#xA;CLS" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="ChockTime" Name="ChockTime" EnableExpressionEditor="False" IsVisible="True" AllowGroup="False" HeaderText="C.OFF" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="ActualTime" Name="ActualTime" EnableExpressionEditor="False" IsVisible="True" AllowGroup="False" HeaderText="ATD" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="CheckinClosedTime" Name="CheckinClosedTime" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="CKI CLS" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="BoardingStart" Name="BoardingStart" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="BDG&#xA;START" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="BoardingFinish" Name="BoardingFinish" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="BDG&#xA;FINISH" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="ACDoorTime" Name="ACDoorTime" EnableExpressionEditor="False" IsVisible="True" HeaderText="AC DR&#xA;SECURITY" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="68" FieldName="ParkingBay" Name="ParkingBay" EnableExpressionEditor="False" IsVisible="True" HeaderText="BAY" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="68" FieldName="Gate" Name="Gate" EnableExpressionEditor="False" IsVisible="True" HeaderText="GATE" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="83" FieldName="CkiRow" Name="CkiRow" EnableExpressionEditor="False" IsVisible="True" HeaderText="CKI ROW" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="TotalPax" Name="TotalPax" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="TTL PAX" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="ADL" Name="ADL" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="ADL" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="CHD" Name="CHD" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="CHD" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="INF" Name="INF" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="INF" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="F" Name="F" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="F" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="C" Name="C" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="C" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="FOC" Name="FOC" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="FOC" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="ADL2" Name="ADL2" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="TS&#xA;ADL" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="CHD2" Name="CHD2" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="TS&#xA;CHD" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="INF2" Name="INF2" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="TS&#xA;INF" />
+      <Telerik.WinControls.UI.GridViewComboBoxColumn Width="78" FieldName="Status" Name="Status" EnableExpressionEditor="False" IsVisible="True" HeaderText="STATUS" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewCommandColumn Width="78" FieldName="FlightDelayReasons" Name="FlightDelayReasons" EnableExpressionEditor="False" IsVisible="True" HeaderText="DLY RSN" />
+      <Telerik.WinControls.UI.GridViewComboBoxColumn Width="78" FieldName="FlightType" Name="FlightType" EnableExpressionEditor="False" IsVisible="True" HeaderText="NATURE&#xA;OF LOAD" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewComboBoxColumn Width="78" FieldName="NatureOfFlight" Name="NatureOfFlight" EnableExpressionEditor="False" IsVisible="True" HeaderText="NATURE&#xA;OF FLT" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="58" FieldName="BagPcs" Name="BagPcs" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="BAG&#xA;(PCS)" TextAlignment="MiddleRight" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="88" FieldName="BagKgs" Name="BagKgs" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="BAG&#xA;(KGS)" TextAlignment="MiddleRight" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="58" FieldName="CgoPcs" Name="CgoPcs" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="CGO&#xA;(PCS)" TextAlignment="MiddleRight" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="88" FieldName="CgoKgs" Name="CgoKgs" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="CGO&#xA;(KGS)" TextAlignment="MiddleRight" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="58" FieldName="Mailkgs" Name="Mailkgs" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="MAIL&#xA;(KGS)" TextAlignment="MiddleRight" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="78" FieldName="TransferKgs" Name="TransferKgs" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="TRANSIT" TextAlignment="MiddleRight" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="118" FieldName="OutputRemarks" Name="OutputRemarks" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="W/B REMARKS" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="118" FieldName="SSR" Name="SSR" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="SSR" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="118" FieldName="WCH" Name="WCH" EnableExpressionEditor="False" IsVisible="False" AllowGroup="False" HeaderText="WCH" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="98" FieldName="Grnd_Cor" Name="Grnd_Cor" EnableExpressionEditor="False" IsVisible="False" HeaderText="GRND&#xA;OPS COR" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="98" FieldName="Grnd_Ld" Name="Grnd_Ld" EnableExpressionEditor="False" IsVisible="False" HeaderText="GRND&#xA;OPS LD" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="118" FieldName="Grnd_Ls" Name="Grnd_Ls" EnableExpressionEditor="False" IsVisible="False" HeaderText="GRND&#xA;OPS LS" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="118" FieldName="PAX_SUPR" Name="Pax_Supr" EnableExpressionEditor="False" IsVisible="False" HeaderText="PAX SUP" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="98" FieldName="Pax_Csr" Name="Pax_Csr" EnableExpressionEditor="False" IsVisible="False" HeaderText="BAG&#xA;HLD" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="98" FieldName="Ramp_Supr" Name="Ramp_Supr" EnableExpressionEditor="False" IsVisible="False" HeaderText="RAMP&#xA;HLD SUP" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="98" FieldName="CABIN_CLEAN" Name="CABIN_CLEAN" EnableExpressionEditor="False" IsVisible="False" HeaderText="CABIN&#xA;CLEANING" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="68" FieldName="Locked" Name="Locked" EnableExpressionEditor="False" IsVisible="False" HeaderText="Locked" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="68" FieldName="IsSAGS" Name="IsSAGS" EnableExpressionEditor="False" IsVisible="False" HeaderText="IsSAGS" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="68" FieldName="ClickedInOutBoundTime" Name="ClickedInOutBoundTime" IsVisible="False" HeaderText="ClickedInOutBoundTime" />
+    </Columns>
+  </MasterTemplate>
+  <ContextMenu>
+    <MenuItems>
+      <System.Windows.Forms.MenuItem Index="0" Text="Hide this column" Tag="ImageLock" />
+    </MenuItems>
+  </ContextMenu>
+</RadGridView>
