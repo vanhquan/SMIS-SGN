@@ -1,0 +1,20 @@
+BaseStation	String	3	
+Carrier	String	2	
+FlightNo	String	100	
+FlightDate	DateTime		
+Route	String	50	
+ACType	String	50	
+ADL	Number		
+CHD	Number		
+INF	Number		
+ADL2	Number		
+CHD2	Number		
+INF2	Number		
+A_BagKgs	Currency		
+A_CgoKgs	Currency		
+A_MailKgs	Currency		
+A_TransferKgs	Currency		
+D_BagKgs	Currency		
+D_CgoKgs	Currency		
+D_MailKgs	Currency
+CarrierName	String	250
