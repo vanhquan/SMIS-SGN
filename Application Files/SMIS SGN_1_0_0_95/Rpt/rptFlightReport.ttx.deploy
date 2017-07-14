@@ -1,0 +1,12 @@
+FlightNo	String	100	
+STA	String	5	
+ATA	String	5	
+ChockOn	String	5	
+ArrPax	Number		
+STD	String	5	
+ACDoorClose	String	5	
+ChockOff	String	5	
+PushBack	String	5	
+DepPax	Number		
+DelayTime	String	250	
+Remarks	String	500	
