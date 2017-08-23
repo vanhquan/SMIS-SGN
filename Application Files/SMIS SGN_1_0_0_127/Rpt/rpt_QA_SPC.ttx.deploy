@@ -1,0 +1,29 @@
+FlightNo	String	20
+FlightDate	DateTime
+AcType	String	30
+AcRegNo	String	30
+Route	String	50
+FlightType	String	3
+ScheduledTime	String	15
+EstimatedTime	String	15
+ActualTime	String	15
+CheckinClosedTime	String	5
+BoardingStart	String	5
+BoardingFinish	String	5
+ParkingBay	String	5
+Gate	String	5
+Total	String	30
+TotalPax	Number
+DepTotalPax	Number
+Status	String	3
+STA	String	6
+STD	String	6
+ATA	String	6
+ATD	String	6
+dSTA	DateTime
+dSTD	DateTime
+dATA	DateTime
+dATD	DateTime
+dCI	DateTime
+dBS	DateTime
+dBF	DateTime
