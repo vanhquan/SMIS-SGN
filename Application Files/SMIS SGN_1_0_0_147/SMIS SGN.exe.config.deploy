@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+  </configSections>
+  <appSettings>
+    <!-- 1: Real Mode; 0: Training Mode ; 2: Test Mode-->
+    <add key="Mode" value="1" />
+    <add key="BaseStation" value="SGN" />
+    <add key="SubBaseStation" value="" />
+    <add key="DebugMode" value="0" />
+    <add key="LoggOut" value="30" />
+    <add key="LockBaseStation" value="0" />
+    <add key="DisAutoLoggOut" value="0" />
+    <add key="LastLoginMode" value="0" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+
+    <add key="SGN_RealMode" value="sPxkDYaJ549eb8Bsl9KpcBWzhm86KLpLiqzZsvNROLof9auVzs/WerhgwCm48eaG3e335uSZYBufMkQVHgJQYh1rVDCJb7K8Rtsp07QV1Io=" />
+    <add key="SGN_Log" value="sPxkDYaJ549eb8Bsl9KpcBWzhm86KLpLiqzZsvNROLoTM993jlLLR5GuOl8FG5pM2vhPOlLt2GhGexrP2hhkar6ao2L9flIsDiN8N3B+97w=" />
+    <add key="SGN_Doc" value="sPxkDYaJ549eb8Bsl9KpcBWzhm86KLpLiqzZsvNROLp45romZsumpDYVPokr+dUjg2EuNFBc7nfrf5aZ4DxdLA7A6aD/Elgj2CgCuOTGhZc=" />
+    
+    <add key="SGNDebug_RealMode" value="sPxkDYaJ549eb8Bsl9KpcBWzhm86KLpLiqzZsvNROLoQzYEwCOLN2RQKwCLKU2GAq8KmgpEk7Esa5MHLMNSXuGBd8rsO66yiKwyGU4WnOA8=" />
+    
+    
+    <add key="DAD_RealMode" value="mXb0zxpoIuTQVdw7mD9izKn1chLcwHuCGPIN7X5ZYYBMV1/zkLVjimcPLcLiTQBDCE3rj5UZu+24dnWiiTFILWE07TLXr9ZpJTbeT51XQCk=" />
+    <add key="DAD_Log" value="mXb0zxpoIuTQVdw7mD9izKn1chLcwHuCGPIN7X5ZYYBwunDlRN7qpfzFx2bhj7+C+t4Irch6tpNJ1hS1ECgD7W3yayzwphQoQ+CYK4LtjhtiHf1WNaRy0tfum92k3oCy" />
+    <add key="DAD_Doc" value="mXb0zxpoIuTQVdw7mD9izKn1chLcwHuCGPIN7X5ZYYCJF8x/Ccs5Xjo7RfMxBBAuwu/uGoMs6bOKB7tiBAOjAemQwc+quVksmlq6jDD9fXM=" />
+
+    <add key="DADVJ_RealMode" value="mXb0zxpoIuTQVdw7mD9izDKkEHnbBMryyQjfpSDwjjko2iTs3JVHB8yg7/xdrjDyp5DfcvgvQCcAaD4vmjYY1srz4NtL6F/UbWdfRHVFaJkHLEBm+Tlcpmpsdz4qlSso" />
+    <add key="DADVJ_Log" value="mXb0zxpoIuTQVdw7mD9izDKkEHnbBMryyQjfpSDwjjlillXCiU2zk4CD2KYcDDzKJWua2WMJyHrUTPPfH/2XOisJnRtSGv2fUosLQkzYtEZsUWBiBIz+cTD3H1dw83HJ" />
+    <add key="DADVJ_Doc" value="mXb0zxpoIuTQVdw7mD9izDKkEHnbBMryyQjfpSDwjjlGAlGNSaFNT2eGNwprNjXc4r0pD2BQSK/nQET8LMlD1Lql5Zn5C7C548awg59G53A=" />
+
+    <add key="DADGA_RealMode" value="mXb0zxpoIuTQVdw7mD9izJu8e4E71IhZYfF5/hGhjNbhiqf1ujdD+VQhIU/NorBz18oz3WHZ2wvIRhEdoh47/lhq5ydr85X1fMGPVYLeKHe46N5ueI68lrBuSB5Sluzz" />
+    <add key="DADGA_Log" value="mXb0zxpoIuTQVdw7mD9izJu8e4E71IhZYfF5/hGhjNZLimVXnRkbMUF98clkr2CqyYALeQ3SpkkJYgtOcwoCckimLxibqb0fIMtdaC2ZYvN/JbIbkNU2OjQz9pucGrgv" />
+    <add key="DADGA_Doc" value="mXb0zxpoIuTQVdw7mD9izJu8e4E71IhZYfF5/hGhjNYW0P2Ey2/atJW/nMDU6C9SKwEAm316N8qc04qShUos3nl9qrBpLfepmuZ89yVHdvI=" />
+    
+    <add key="CXR_RealMode" value="mXb0zxpoIuTQVdw7mD9izCmOWdYbPjaB0IYp4beMlQ1c6jd4CsjZD2LhBghQKXRDRpAFsQCE9gbgv2vgtAsFfhTPfAs3lCuGy/04xUpP6s4=" />
+    <add key="CXR_Log" value="mXb0zxpoIuTQVdw7mD9izCmOWdYbPjaB0IYp4beMlQ0q2QV6PgWcksKShivS5twOleyq5ykP7Ff7tiF1q/2age0dDXRkZBYzMMqherf0fSw7Y0h1LwlDzRW7ieDhEO0c" />
+    <add key="CXR_Doc" value="mXb0zxpoIuTQVdw7mD9izCmOWdYbPjaB0IYp4beMlQ3dkJq0AS3+neGBsqtm4Tf3keUwD8rG9CVM7sE7hmRknEOL+AkpBM+RgjEI6w7oMKY=" />
+
+    <add key="CXRV2_RealMode" value="mXb0zxpoIuTQVdw7mD9izAyM6Enqqneciiv90ZUquZMUOMhhe8bNFDvm3QjZLXeXd5sz3XUMSDvxzT0NMWMJf+2l5qlebIxKIjl4AU8PmlA=" />
+    <add key="CXRV2_Log" value="mXb0zxpoIuTQVdw7mD9izAyM6Enqqneciiv90ZUquZOdPZ4AULE3cNYou5iOKxufiO3Jfo67kF+TtAiW0fwGJmWivV/iiTIWecEVbUie/Ul9xArJRQeZmT7auMucbdHC" />
+    <add key="CXRV2_Doc" value="mXb0zxpoIuTQVdw7mD9izAyM6Enqqneciiv90ZUquZOJsjM2rYps7Cc74UTiAdn+Pi3ufuAgZvxHIoqn3QtbpFuqIE3J3v6I2jkR83zq17o=" />
+    
+  </appSettings>
+  <connectionStrings>
+    <add name="RealMode" connectionString="sPxkDYaJ549eb8Bsl9KpcBWzhm86KLpLiqzZsvNROLof9auVzs/WerhgwCm48eaG3e335uSZYBufMkQVHgJQYh1rVDCJb7K8Rtsp07QV1Io=" />
+    <add name="Log" connectionString="sPxkDYaJ549eb8Bsl9KpcBWzhm86KLpLiqzZsvNROLoTM993jlLLR5GuOl8FG5pM2vhPOlLt2GhGexrP2hhkar6ao2L9flIsDiN8N3B+97w=" />
+    <add name="Doc" connectionString="sPxkDYaJ549eb8Bsl9KpcBWzhm86KLpLiqzZsvNROLp45romZsumpDYVPokr+dUjg2EuNFBc7nfrf5aZ4DxdLA7A6aD/Elgj2CgCuOTGhZc=" />
+  
+    
+  </connectionStrings>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0" />
+  </startup>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+      </providers>
+    </roleManager>
+  </system.web>
+  <system.serviceModel>
+    <bindings>
+      <wsHttpBinding>
+        <binding name="WSHttpBinding_ISMISServices" closeTimeout="00:01:00" openTimeout="00:01:00" receiveTimeout="00:10:00" sendTimeout="00:01:00" bypassProxyOnLocal="false" transactionFlow="false" hostNameComparisonMode="StrongWildcard" maxBufferPoolSize="524288" maxReceivedMessageSize="65536" messageEncoding="Text" textEncoding="utf-8" useDefaultWebProxy="true" allowCookies="false">
+          <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384" maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+          <reliableSession ordered="true" inactivityTimeout="00:10:00" enabled="false" />
+          <security mode="Message">
+            <transport clientCredentialType="Windows" proxyCredentialType="None" realm="" />
+            <message clientCredentialType="UserName" negotiateServiceCredential="true" algorithmSuite="Default" establishSecurityContext="true" />
+          </security>
+        </binding>
+      </wsHttpBinding>
+    </bindings>
+    <client>
+      <endpoint address="http://10.10.55.5/WServices/SMISServices.svc" binding="wsHttpBinding" bindingConfiguration="WSHttpBinding_ISMISServices" contract="ISMISServices" name="WSHttpBinding_ISMISServices">
+        <identity>
+          <certificate encodedValue="AwAAAAEAAAAUAAAAY40wqvAspnG4bklSkoubKIKAEMkgAAAAAQAAAMAEAAAwggS8MIICpKADAgECAhAkDjfwzA14jUzPV7WFcZBfMA0GCSqGSIb3DQEBBQUAMBoxGDAWBgNVBAMTD0FjY291bnRTZXJ2aWNlczAeFw0xNjEwMTkxNzAwMDBaFw0yNjEwMjYxNzAwMDBaMBoxGDAWBgNVBAMTD0FjY291bnRTZXJ2aWNlczCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAJ//1q2DLFEHv1c3doXV39pkxdFSfxF7eLO7HbZ1EScyNrMU2D3NFq+DA+0lMeBC5RgUaPEDaemyp2/PaY978WktOd/t46QrkRYcVoa58MJZtDgYlJ8HaqIQB4MIfmvozOO4xZm32gfbp//GP75YWmNWNUzPUv7ZDOniTVsnzFO0tmTVfyOs3291wPJlYcmCCnvKWlt5wxfhVSAco7Rnr5WDCvGaBk7k+S72Rxp2lISrGbJyeL9JNuBSPOx+dPA8kND35kqb+Mv625++++4ISQgpkbTvuaDKyqadPqr8xPHOaxGa4gOwfSodyc2a68W0bV1g6bQdkxBaPttbfVD5D4G230d9/Widj/lwq00qF5pz1hiJAxiXZb57OlGs5OV0GdXe8OaM9sUeIhYmizyWc53z1UJ47rBRa9hyBOf0ATxY/V5rWOVyWfEVU4v4s5D62cU/NLGoVQs6Mvy1163vU40g0v4r/OE/RZNCTMDMoDZed+VB7KElCDJG3uu7qDa08/uytnESLClZPygmGkzAmtLbdLy9xs5aWuOTnR7d37pKRvMdJ9kupFIXmnGaMQlDlsZlL1O80AQnTBhWUesArIqBazzq/uTvOEv7uZla0IdTxb74jMzYlSeKNTMBryVY3yYBfACwxb3S6b68eQ/wvPk3mZ3SGQHuDLb6hRqVX0HPAgMBAAEwDQYJKoZIhvcNAQEFBQADggIBABTIjvXS9Svicwc+1Zw6BRr+jZlbe9PMH7/1RWrGFSTjxnSJ+vaWHT19lJ3H9au80gSzAm/+1M8wYH2dTDhZ7PORut0ktmRs7FYHvheBIseAkxlMH67cr/v/lQha+5UqaFkyBo+SBdvKl3ccLD8e+I+IQy/BqwV1+3cAQSsUYjK5QFj0dWm/2VAJTC6AamzOMCo6TC7Crx1Z1/IGrDqVUkscidiUwbdPdFVZ5GoDZvGlzdAw+vkMb8KW6GL1gK2os20te80A8PXY2XJe3vwVDnsNpeSkOZkFBgVNo7491CvT5CQioJgdXW6WeAf7z9GYdIr3cQcJp5y7B7QNogFNEV4DbDT9fu4ki2vhrRTsleSp2op6mtfHzfysmHTlYG82Jplf2ARuDHhsedCo3anmB3SMMmu9OFTPtX3/W+60jOsU6zOAFybwNZgrACWeYCCYogkuR5s1Q75s3Qh6ylIGLv88mPs16VD8RYY/NxrH3EKM1fE2ZffWB6sHYiu0eVDSnChOlPXSn+nsteOu1y5Ky4auymNjKYKAVsXiMPA+tgeQPLWS8i7kLDCJe1yETkdTc8LGGPO3NXRT9J3NsX7ZjvmYSoqgMdsm9K+cMxYXNK8VObwn3OTMXH/rECKzNgJRQZMg4UBe7VeDhSKsSn4DH5lWaV3ZxFzqn3Eht1f/0pvN" />
+        </identity>
+      </endpoint>
+    </client>
+  </system.serviceModel>
+</configuration>
