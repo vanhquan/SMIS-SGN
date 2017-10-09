@@ -1,0 +1,9 @@
+FlightNo	String	20
+AcType	String	20
+AcRegNo	String	30
+Route	String	60
+ScheduledTime	String	5
+ArrDep	String	5
+Remarks	String	1000
+NumericCode	String	3
+DelayReason	String	1000
