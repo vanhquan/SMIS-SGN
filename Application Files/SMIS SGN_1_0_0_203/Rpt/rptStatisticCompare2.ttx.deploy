@@ -1,0 +1,30 @@
+Session	String	50
+ArrFlights	Number		
+DepFlights	Number		
+STT		Number
+Level	Number
+STT2	String	4
+ArrPaxFlights	Number
+DepPaxFlights	Number
+ArrCgoFlights	Number
+DepCgoFlights	Number
+ArrFerFlights	Number
+DepFerFlights	Number
+ComArrFlights	Number 
+ComDepFlights	Number 
+ComArrPaxFlights	Number 
+ComDepPaxFlights	Number
+ComArrCgoFlights	Number 
+ComDepCgoFlights	Number
+ComArrFerFlights	Number 
+ComDepFerFlights	Number
+MainWeeks	Number
+CompareWeeks	Number
+ArrCanceled	Number
+DepCanceled	Number
+ComArrCanceled	Number
+ComDepCanceled	Number
+ArrOperate	Number
+DepOperate	Number
+ComArrOperate	Number
+ComDepOperate	Number
