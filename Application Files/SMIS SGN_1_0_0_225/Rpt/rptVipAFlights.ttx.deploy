@@ -1,0 +1,8 @@
+FlightNo	String	10	
+Route	String	30	
+ScheduledTime	String	5	
+FlightID	Number		
+ArrDep	String	1	
+ChockTime	String	5	
+ACType	String	10	
+ACRegNo	String	10	
