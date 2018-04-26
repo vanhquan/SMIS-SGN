@@ -1,0 +1,12 @@
+Session	String	50
+ArrNarrow	Number		
+DepNarrow	Number		
+ArrWide1	Number	
+DepWide1	Number	
+ArrWide2	Number
+DepWide2	Number
+ArrOther	Number
+DepOther	Number
+STT		Number
+Level	Number
+STT2	String	4
