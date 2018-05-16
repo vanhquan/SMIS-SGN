@@ -1,0 +1,18 @@
+Airport	String	250	
+RouteType	String	250	
+BaseStation	String	250	
+BaseStationName	String	250	
+Route	String	50	
+ACType	String	50	
+ArrFlights	Number		
+ArrPax	Number		
+ArrCgo	Number		
+ArrBag	Number		
+ArrMail	Number		
+ArrHSG	Currency		
+DepFlights	Number		
+DepPax	Number		
+DepCgo	Number		
+DepBag	Number		
+DepMail	Number		
+DepHSG	Currency		
