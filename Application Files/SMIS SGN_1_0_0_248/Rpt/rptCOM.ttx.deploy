@@ -1,0 +1,25 @@
+FlightNo	String	20	
+FlightDate	Datetime	
+ADL	Number		
+CHD	Number		
+INF	Number		
+Piece	Number		
+Kg	Number		
+HandBag	Number		
+F	Number		
+C	Number		
+Y	Number		
+PADF	Number		
+PADC	Number		
+PADY	Number		
+CrewM	Number		
+CrewF	Number		
+DHCM	Number		
+DHCF	Number		
+ExtraSeatF	Number		
+ExtraSeatC	Number		
+ExtraSeatY	Number		
+MUSF	Number		
+MUSC	Number		
+MUSY	Number		
+TotalPaxWeight	Number		
