@@ -1,0 +1,20 @@
+FlightDate	DateTime
+FlightNo	String	20
+STA	DateTime
+ATA	DateTime
+ChockOn	DateTime
+STD	DateTime
+ACDoorClose	DateTime
+PushBackTime	DateTime
+TotalPax	Number
+GroundTime	Number
+AHT	Number
+AGT	Number
+DL_DR_CLS	Number
+Code_93	Number
+DL_AC_PB	Number
+Others	Number
+Exceed	Number
+ATC	Number
+OTT_Achieved	String	10
+ATC_Reason	String	10
