@@ -1,0 +1,18 @@
+Session	String	50
+ArrFlights	Number		
+DepFlights	Number		
+ArrCanceled	Number	
+DepCanceled	Number	
+ArrDelayed	Number
+DepDelayed	Number
+ArrVIP	Number
+DepVIP	Number
+Pax	Number
+Cgo	Number
+Med	Number
+Charters	Number
+Passengers	Number
+F	Number
+C	Number
+Y	Number
+INF	Number
