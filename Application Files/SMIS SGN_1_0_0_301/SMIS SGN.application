@@ -14,14 +14,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\SMIS SGN_1_0_0_301\SMIS SGN.exe.manifest" size="100159">
+    <dependentAssembly dependencyType="install" codebase="Application Files\SMIS SGN_1_0_0_301\SMIS SGN.exe.manifest" size="98834">
       <assemblyIdentity name="SMIS SGN.exe" version="1.0.0.301" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>rRHkTv9eccULjyCLXX5y7p1cy74=</dsig:DigestValue>
+        <dsig:DigestValue>dHT98T2PAyD5PRdFJWUg9OX1s/I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
