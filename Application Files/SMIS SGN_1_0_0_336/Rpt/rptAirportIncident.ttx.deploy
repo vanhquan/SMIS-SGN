@@ -1,0 +1,5 @@
+AreaDefine	String	2	
+Date	Date		
+Airport	String	3	
+Area	String	10	
+IncidentDetail	String	1000	
