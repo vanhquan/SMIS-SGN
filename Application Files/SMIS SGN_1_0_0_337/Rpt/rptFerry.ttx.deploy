@@ -1,0 +1,6 @@
+FlightNo	String	20	
+ACType	String	20	
+Route	String	250	
+STD	String	10	
+STA	String	10	
+FlightDate	DateTime
