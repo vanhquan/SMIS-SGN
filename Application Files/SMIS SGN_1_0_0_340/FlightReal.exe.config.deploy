@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+  </configSections>
+  <connectionStrings>
+    <add name="FlightReal.Properties.Settings.DCS20ConnectionString"
+      connectionString="Data Source=10.10.55.5;Initial Catalog=DCS20;User ID=dcs;Password=dcs@123"
+      providerName="System.Data.SqlClient" />
+    <add name="FlightReal.Properties.Settings.GPSConnectionString"
+      connectionString="Data Source=10.10.55.5;Initial Catalog=GPS;User ID=dcs;Password=dcs@123"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  <startup useLegacyV2RuntimeActivationPolicy="true">
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+  </startup>
+
+</configuration>
