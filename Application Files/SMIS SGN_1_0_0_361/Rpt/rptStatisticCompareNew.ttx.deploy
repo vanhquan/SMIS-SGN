@@ -1,0 +1,27 @@
+Session	String	50
+ArrPaxFlight1	Number		
+DepPaxFlight1	Number		
+ArrCgoFlight1	Number
+DepCgoFlight1	Number
+ArrPax1	Number
+DepPax1	Number
+ArrBagPcs1	Number
+DepBagPcs1	Number
+ArrCgoKgs1	Number
+DepCgoKgs1	Number
+ArrPaxFlight2	Number		
+DepPaxFlight2	Number		
+ArrCgoFlight2	Number
+DepCgoFlight2	Number
+ArrPax2	Number
+DepPax2	Number
+ArrBagPcs2	Number
+DepBagPcs2	Number
+ArrCgoKgs2	Number
+DepCgoKgs2	Number
+STT		Number
+STT2	Number
+Level	Number
+MainWeeks	Number
+CompareWeeks	Number
+BaseStation	String	3
