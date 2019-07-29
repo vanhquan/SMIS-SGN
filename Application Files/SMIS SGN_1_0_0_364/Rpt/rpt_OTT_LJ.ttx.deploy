@@ -1,0 +1,53 @@
+ArrFlightNo	String	10
+DepFlightNo	String	10
+ArrFlightDate	DateTime	 
+DepFlightDate	DateTime
+ArrACRegNo	String	10	 
+DepACRegNo	String	10
+ArrACType	String	10	 
+DepACType	String	10 
+ArrROUTE	String	30	 
+DepROUTE	String	30
+ArrConfig	String	20	 
+DepConfig	String	20
+ArrScheduledTime	String	5	 
+DepScheduledTime	String	5
+ArrEstimatedTime	String	5	 
+DepEstimatedTime	String	5
+ArrActualTime	String	5	 
+DepActualTime	String	5
+ArrChockTime	String	5	 
+DepChockTime	String	5
+ArrPushBackTime	String	5	 
+DepPushBackTime	String	5
+ArrACDoorClose	String	5	 
+DepACDoorClose	String	5
+ArrFirstBag	String	5	 
+DepFirstBag	String	5
+ArrLastBag	String	5	 
+DepLastBag	String	5
+ArrTotalPax	Number	 
+DepTotalPax	Number
+ArrADL	Number	 
+DepADL	Number
+ArrCHD	Number	 
+DepCHD	Number
+ArrINF	Number	 
+DepINF	Number
+ArrDteST	DateTime	 
+DepDteST	DateTime
+ArrDteCT	DateTime	 
+DepDteCT	DateTime
+ArrDteACDC	DateTime	 
+DepDteACDC	DateTime
+ArrDtePBT	DateTime	 
+DepDtePBT	DateTime
+ArrDteAT	DateTime	 
+DepDteAT	DateTime
+AHT	Number	 
+AGT	Number
+ATCReason	String	3	 
+ACARS	String	3
+OTA	String	3	 
+OTP	String	3
+Remark	String	10
