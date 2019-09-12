@@ -1,0 +1,25 @@
+FlightId	Number
+FlightNo	String	10
+FlightDate	DateTime
+Route	String	30
+AcType	String	10
+AcRegNo	String	10
+ScheduledTime	String	5
+EstimatedTime	String	5
+ActualTime	String	5
+ArrDep	String	1
+Total	String	20
+TotalPax	Number
+F	Number
+C	Number
+Y	Number
+INF	Number
+BagPcs	Number
+BagKgs	Number
+CgoPcs	Number
+CgoKgs	Number
+MailPcs	Number
+MailKgs	Number
+Status	String	30
+TransferKgs	Number
+Transfer2Kgs	Number
