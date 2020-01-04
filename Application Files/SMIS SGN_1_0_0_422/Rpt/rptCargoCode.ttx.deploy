@@ -1,0 +1,11 @@
+FlightDate	DateTime		
+FlightNo	String	50	
+Route	String	50	
+STA	String	5	
+STD	String	5	
+ArrBagKgs	Number		
+ArrCgoKgs	Number		
+BookingCargo	Number		
+DepCgoKgs	Number		
+BookingOffload	Number		
+Reason	String	4000	
