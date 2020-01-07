@@ -1,0 +1,10 @@
+Stt	String	250	
+ItemName	String	250	
+Flights	Number		
+PaxArr	Number		
+PaxDep	Number		
+BagArr	Number		
+BagDep	Number		
+CgoArr	Number		
+CgoDep	Number		
+PaxTs	Number		
