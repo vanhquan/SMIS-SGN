@@ -1,0 +1,15 @@
+FlightDate	DateTime
+FlightNo	String	20
+STA	DateTime
+ATA	DateTime
+ChockOn	DateTime
+STD	DateTime
+ACDoorClose	DateTime
+PushBackTime	DateTime
+TotalPax	Number
+GroundTime	Number
+AHT	Number
+ATC	Number
+OTP_Achieved	String	10
+ArrDelayReason	String	100
+DepDelayReason	String	100
