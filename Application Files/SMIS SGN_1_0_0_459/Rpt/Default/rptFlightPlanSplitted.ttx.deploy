@@ -1,0 +1,13 @@
+FlightNo	String	20
+AcType	String	20
+Carrier	String	3
+ArrFlightNo	String	20
+ArrAcReg	String	30
+DepFlightNo	String	20
+DepAcReg	String	30
+From	String	30
+To	String	60
+ETA	String	5
+ETD	String	5
+Group	String	1
+Rmk	String	100
