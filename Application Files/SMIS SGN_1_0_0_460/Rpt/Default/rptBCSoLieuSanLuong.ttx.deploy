@@ -1,0 +1,6 @@
+BaseStationName	String	250	
+ItemName	String	250	
+Departure	Number		
+Arrival	Number		
+Transit	Number		
+LastPeriod	Number		
