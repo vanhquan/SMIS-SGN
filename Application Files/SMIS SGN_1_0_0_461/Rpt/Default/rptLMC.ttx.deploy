@@ -1,0 +1,27 @@
+FlightNo	String	10	
+Destination	String	10	
+ScheduledTime	String	5	
+EstimatedTime	String	5	
+ActualTime	String	5	
+Status	String	5	
+ADL0	Number		
+CHD0	Number		
+INF0	Number		
+ADL	Number		
+CHD	Number		
+INF	Number		
+BagPcs0	Number		
+BagKgs0	Number		
+ComatPcs0	Number		
+ComatKgs0	Number		
+BagPcs	Number		
+BagKgs	Number		
+ComatPcs	Number		
+ComatKgs	Number		
+WCHR	Number		
+S	Number		
+C	Number		
+VIP	Number		
+CIP	Number		
+Deluxe	Number		
+Remarks	String	4000	
