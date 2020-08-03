@@ -1,0 +1,14 @@
+FlightNo	String	50	
+Belt	String	50	
+BeltAgent	String	50	
+ChockTime	String	5
+TotalPax	Number
+BagPcs	Number
+BagKgs	Currency
+ScheduledTime	String	5
+FirstBag	String	5
+LastBag	String	5
+ParkingBay	String	20
+FA	Number	
+FirstBagMinute	Number	
+LastBagMinute	Number
