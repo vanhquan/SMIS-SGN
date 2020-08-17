@@ -1,0 +1,6 @@
+Carrier	String	50
+Route	String	50
+Flights	Number		
+ComFlights	Number		
+MainWeeks	Number
+CompareWeeks	Number
