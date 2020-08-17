@@ -1,0 +1,4 @@
+Carrier	String	10	
+CarrierName	String	250
+ContractType2	String	250
+ContractType	String	250
