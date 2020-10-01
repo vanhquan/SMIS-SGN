@@ -1,0 +1,8 @@
+Total_Seat_Of_Month	Number
+Total_Pax_Arr	Number
+Avg_Load_Factor_Arr	Currency
+Total_Pax_Dep	Number
+Avg_Load_Factor_Dep	Currency
+Total_Flight_Of_Month	Number
+Delayed_Arr_Flight	Number
+OTP_Dep	Number
