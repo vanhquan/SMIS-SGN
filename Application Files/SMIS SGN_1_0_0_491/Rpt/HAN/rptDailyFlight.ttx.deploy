@@ -1,0 +1,18 @@
+FlightNo	String	20
+AcType	String	30
+AcRegNo	String	10
+Config	String	20
+Booking	String	30
+Route	String	30
+FlightType	String	3
+ScheduledTime	String	15
+EstimatedTime	String	5
+ActualTime	String	15
+CheckinClosed	String	5
+BoardingStart	String	5
+BoardingFinish	String	5
+ParkingBay	String	5
+Gate	String	5
+Total	String	30
+Status	String	3
+FlightDate	DateTime
