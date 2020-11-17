@@ -1,0 +1,19 @@
+FlightId	Number
+FlightNo	String	20
+AcType	String	20
+AcRegNo	String	30
+Route	String	60
+FlightDate	DateTime
+DlyRemarks	String	200
+CnxRemarks	String	200
+ScheduledTime	String	5
+ChockTime	String	5
+Status	String	3
+STD	DateTime
+COFF	DateTime
+DelayMinutes	Number
+DelayHours	Number
+Remarks	String	200
+Ord	Number
+Grp	Number
+CCount	Number
