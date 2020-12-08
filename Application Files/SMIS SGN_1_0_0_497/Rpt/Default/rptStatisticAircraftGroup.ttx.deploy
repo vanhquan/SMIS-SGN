@@ -1,0 +1,20 @@
+ArrDep	String	1
+RouteType	String	1
+FlightType	String	3
+Carrier	String	2
+MainSmall	Number
+CompareSmall	Number
+GainLossSmall	Number
+PctGainLossSmall	Number
+MainMedium	Number
+CompareMedium	Number
+GainLossMedium	Number
+PctGainLossMedium	Number
+MainLarge	Number
+CompareLarge	Number
+GainLossLarge	Nubmer
+PctGainLossLarge	Number
+MainOthers	Number
+CompareOthers	Number
+GainLossOthers	Number
+PctGainLossOthers	Number
