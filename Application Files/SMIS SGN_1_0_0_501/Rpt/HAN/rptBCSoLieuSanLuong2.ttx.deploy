@@ -1,0 +1,10 @@
+BaseStationName	String	250	
+ItemName	String	250	
+PrePeriod	Number		
+Departure	Number		
+Arrival	Number		
+Transit	Number		
+PrePeriodYear	Number		
+AccumYear	Number		
+SkedYear	Number		
+AccumPreYear	Number		
