@@ -14,7 +14,7 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\SMIS SGN_1_0_0_502\SMIS SGN.exe.manifest" size="161748">
+    <dependentAssembly dependencyType="install" codebase="Application Files\SMIS SGN_1_0_0_503\SMIS SGN.exe.manifest" size="161748">
       <assemblyIdentity name="SMIS SGN.exe" version="1.0.0.501" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
