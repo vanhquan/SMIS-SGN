@@ -1,0 +1,7 @@
+RouteType	String	10
+FlightDate	DateTime
+FlightNo	String	50	
+ACType	String	50	
+Route	String	100	
+ServiceName	String	250
+Amount	Currency
