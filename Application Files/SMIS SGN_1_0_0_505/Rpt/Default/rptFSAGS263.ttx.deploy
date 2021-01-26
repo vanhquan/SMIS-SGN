@@ -1,0 +1,7 @@
+FlightNo	String	50	
+ETA	String	50	
+BeltAgent	String	50	
+ParkingBay	String	20
+EstimatedTime	String	5
+SSR	String	100
+ArrStaff	String	100
