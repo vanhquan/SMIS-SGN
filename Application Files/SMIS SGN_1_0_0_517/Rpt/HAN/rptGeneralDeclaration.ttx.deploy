@@ -1,0 +1,5 @@
+Info	String	10	CAPT
+CrewName	String	50	NGUYEN THANH TRUNG
+Country	String	3	SIN
+DOB	String	11	11 JAN 2006
+Remarks	String	50	1289043809787HNH
