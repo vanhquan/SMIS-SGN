@@ -1,0 +1,12 @@
+FlightNo	String	10	
+Route	String	50	
+ScheduledTime	String	10	
+EstimatedTime	String	10	
+ACRegNo	String	20
+Block	String	20
+Booking	String	20
+ACType	String	10
+ParkingBay	String	20
+SSR	String	200
+BookingCargo	Currency
+LIRCargo	Currency
