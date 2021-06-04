@@ -1,0 +1,13 @@
+FlightDate	String	20	
+FlightNo	String	10	
+ACRegNo	String	20	
+ParkingBay	String	10	
+Route	String	20	
+TotalPax	Number		
+SSR	String	50	
+UserName	String	20
+Gate	String	10
+Pax_Supr	String	50
+Sup	String	50
+Agent	String	50
+ArrDep	String	1
