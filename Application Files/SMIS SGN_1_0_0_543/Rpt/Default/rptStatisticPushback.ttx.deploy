@@ -1,0 +1,12 @@
+RouteType	String	1
+FlightType	String	3
+Carrier	String	2
+ServiceId	Number
+ServiceName	String	200
+Unit	String	20
+ServicePriceId	int
+Capacity	String	200
+MainValue	Number
+CompareValue	Number
+GainLoss	Number
+PctGainLoss	Number
