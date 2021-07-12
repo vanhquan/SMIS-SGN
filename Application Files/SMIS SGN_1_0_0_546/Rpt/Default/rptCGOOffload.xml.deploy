@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rptCGOOffload">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Carrier" type="xs:string" minOccurs="0" />
+              <xs:element name="FlightId" type="xs:int" minOccurs="0" />
+              <xs:element name="LinkedFlight" type="xs:int" minOccurs="0" />
+              <xs:element name="DepFlightId" type="xs:int" minOccurs="0" />
+              <xs:element name="FlightNo" type="xs:string" minOccurs="0" />
+              <xs:element name="ACRegNo" type="xs:string" minOccurs="0" />
+              <xs:element name="ACType" type="xs:string" minOccurs="0" />
+              <xs:element name="Route" type="xs:string" minOccurs="0" />
+              <xs:element name="STA" type="xs:string" minOccurs="0" />
+              <xs:element name="STD" type="xs:string" minOccurs="0" />
+              <xs:element name="ChockOn" type="xs:string" minOccurs="0" />
+              <xs:element name="ChockOff" type="xs:string" minOccurs="0" />
+              <xs:element name="ACDoorClose" type="xs:string" minOccurs="0" />
+              <xs:element name="FlightType" type="xs:string" minOccurs="0" />
+              <xs:element name="NatureOfFlight" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="ArrBagKgs" type="xs:int" minOccurs="0" />
+              <xs:element name="ArrCgoKgs" type="xs:int" minOccurs="0" />
+              <xs:element name="DepBagKgs" type="xs:int" minOccurs="0" />
+              <xs:element name="DepCgoKgs" type="xs:int" minOccurs="0" />
+              <xs:element name="BookingCargo" type="xs:int" minOccurs="0" />
+              <xs:element name="LIRCargo" type="xs:int" minOccurs="0" />
+              <xs:element name="BookingOffload" type="xs:int" minOccurs="0" />
+              <xs:element name="Remarks" type="xs:string" minOccurs="0" />
+              <xs:element name="FlightDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
