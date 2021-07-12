@@ -1,0 +1,11 @@
+ScheduleDetailId	Number	
+BaseStation	String	3
+ItemName	String	500
+Unit	String	50
+Output1	Number	
+Output2	Number
+Output3	Number
+Output4	Number
+Output5	Number
+R_Value	Number
+Bold	Number
