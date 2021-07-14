@@ -1,0 +1,4 @@
+FlightNo	String	50	
+Belt	String	50	
+BeltAgent	String	50	
+ParkingBay	String	20
